@@ -1,0 +1,16 @@
+{
+  "name": "interview",
+  "description": "Opsline interview server runlist",
+  "json_class": "Chef::Role",
+  "default_attributes": {},
+  "override_attributes": {},
+  "chef_type": "role",
+  "run_list": [
+    "recipe[rvm::default]",
+    "recipe[rvm::user]",
+    "recipe[nodejs::default]",
+    "recipe[chef_nginx::default]",
+    "recipe[opsline_interview_cookbook::default]"
+  ],
+  "env_run_lists": {}
+}
