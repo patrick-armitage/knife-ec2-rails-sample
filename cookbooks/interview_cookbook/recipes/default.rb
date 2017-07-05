@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: opsline_interview_cookbook
+# Cookbook Name:: interview_cookbook
 # Recipe:: default
 #
 # Copyright 2017, YOUR_COMPANY_NAME
@@ -8,16 +8,16 @@
 #
 
 include_recipe 'git::default'
-app_path = "#{node['opsline']['home_dir']}/#{node['opsline']['app_dir']}"
+app_path = "#{node['interview']['home_dir']}/#{node['interview']['app_dir']}"
 release_path = "#{app_path}/current"
 
-directory node['opsline']['home_dir'] do
+directory node['interview']['home_dir'] do
   owner 'ubuntu'
   group 'ubuntu'
   mode  '0755'
 end
 
-deploy "#{node['opsline']['home_dir']}/#{node['opsline']['app_dir']}" do
+deploy "#{node['interview']['home_dir']}/#{node['interview']['app_dir']}" do
   repo 'https://github.com/patrick-armitage/sample_rails_app.git'
   environment 'RAILS_ENV' => 'production'
   revision 'HEAD'

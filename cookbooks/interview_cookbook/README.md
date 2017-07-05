@@ -1,4 +1,4 @@
-# opsline_interview_cookbook Cookbook
+# interview_cookbook Cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -20,14 +20,14 @@ e.g.
 
 ### Cookbooks
 
-- `toaster` - opsline_interview_cookbook needs toaster to brown your bagel.
+- `toaster` - interview_cookbook needs toaster to brown your bagel.
 
 ## Attributes
 
 TODO: List your cookbook attributes here.
 
 e.g.
-### opsline_interview_cookbook::default
+### interview_cookbook::default
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['opsline_interview_cookbook']['bacon']</tt></td>
+    <td><tt>['interview_cookbook']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -46,18 +46,18 @@ e.g.
 
 ## Usage
 
-### opsline_interview_cookbook::default
+### interview_cookbook::default
 
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `opsline_interview_cookbook` in your node's `run_list`:
+Just include `interview_cookbook` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[opsline_interview_cookbook]"
+    "recipe[interview_cookbook]"
   ]
 }
 ```
@@ -77,4 +77,3 @@ e.g.
 ## License and Authors
 
 Authors: TODO: List authors
-

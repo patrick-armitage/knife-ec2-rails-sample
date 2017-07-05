@@ -1,8 +1,8 @@
-name             'opsline_interview_cookbook'
+name             'interview_cookbook'
 maintainer       'Patrick Armitage'
 maintainer_email 'armitage.patrick@gmail.com'
 license          'All rights reserved'
-description      'Installs/Configures opsline_interview_cookbook'
+description      'Installs/Configures interview_cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 depends          'git'
